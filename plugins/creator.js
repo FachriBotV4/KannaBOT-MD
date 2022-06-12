@@ -8,14 +8,17 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
   let nowner = `${nomorown.split`@`[0]}@s.whatsapp.net`
   let teksnomor = `${htki} *OWNER* ${htka}
 • @${nomorown.split`@`[0]} •
-------- ${nameown} -------
+------- [Nomer Owner] -------
+
+ 》•https://wa.me/6281322667077
+ 》•https://wa.me/6281215710461
 
 📮 *Note:*
 • Owner tidak menerima save contact
 • Owner berhak blockir tanpa alasan
 • Berbicaralah yang sopan & tidak spam
 • Owner Hanya merespon yang berkaitan dengan BOT
-• No Telp`
+• No Telp/Vc`
 
 //------------ BIO
 let ppown = await conn.profilePictureUrl(nomorown + '@s.whatsapp.net', 'image').catch(_ => hwaifu[1]) 
@@ -23,7 +26,7 @@ let teksbio = `${htki} *BIODATA* ${htka}
 *ɴᴀᴍᴇ:* Romli Ngab!!
 *ᴀɢᴇ:* 16th
 *ᴄʟᴀss:* 10
-*sᴛᴀᴛᴜs:* ytta
+*sᴛᴀᴛᴜs:* ya
 
 *ʙɪʀᴛʜᴅᴀʏ:* 4j2k6
 *ᴀᴅᴅʀᴇss:* Indonesia, jawa barat, Bandung Barat
@@ -36,7 +39,8 @@ let teksbio = `${htki} *BIODATA* ${htka}
 
 📷 *Instagram:* ${sig}
 🐈 *Github:* ${sgh}
-🥏 *Whatsapp* wa.me/${nomorown}
+🥏 *Whatsapp* wa.me/6281322667077
+🥏 *Whatsapp* wa.me/6281215710461
 
 `
   let teks = ' '
