@@ -5,13 +5,13 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
   let _type = (args[0] || '').toLowerCase()
 
 //------- NOMOR
-  let nowner = `${nomorown.split`@`[0]}@s.whatsapp.net`
-  let teksnomor = `${htki} *OWNER* ${htka}
-• @${nomorown.split`@`[0]} •
-------- [Nomer Owner] -------
+ ------- [ *Name Owner* ] -------
+ 》• _*Romli ngabb!!*_
+ 》• _*Naiichnz*_
+------- [ *Nomer Owner* ] -------
 
- 》•https://wa.me/6281322667077
- 》•https://wa.me/6281215710461
+ 》•https://wa.me/6281322667077 (Romli)
+ 》•https://wa.me/6281215710461 (Naiichnz)
 
 📮 *Note:*
 • Owner tidak menerima save contact
@@ -26,7 +26,7 @@ let teksbio = `${htki} *BIODATA* ${htka}
 *ɴᴀᴍᴇ:* Romli Ngab!!
 *ᴀɢᴇ:* 16th
 *ᴄʟᴀss:* 10
-*sᴛᴀᴛᴜs:* ya
+*sᴛᴀᴛᴜs:* *yaa*
 
 *ʙɪʀᴛʜᴅᴀʏ:* 4j2k6
 *ᴀᴅᴅʀᴇss:* Indonesia, jawa barat, Bandung Barat
@@ -39,8 +39,8 @@ let teksbio = `${htki} *BIODATA* ${htka}
 
 📷 *Instagram:* ${sig}
 🐈 *Github:* ${sgh}
-🥏 *Whatsapp* wa.me/6281322667077
-🥏 *Whatsapp* wa.me/6281215710461
+🥏 *Whatsapp* wa.me/6281322667077 (Romli)
+🥏 *Whatsapp* wa.me/6281215710461 (Naiichnz)
 
 `
   let teks = ' '
