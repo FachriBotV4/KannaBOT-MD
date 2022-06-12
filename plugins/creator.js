@@ -5,9 +5,10 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
   let _type = (args[0] || '').toLowerCase()
 
 //------- NOMOR
- ------- [ *Name Owner* ] -------
- 》• _*Romli ngabb!!*_
- 》• _*Naiichnz*_
+ let nowner = `${nomorown.split`@`[0]}@s.whatsapp.net`
+  let teksnomor = `${htki} *OWNER* ${htka}
+ 》• _*Romli Ngab*_
+ 》• _*Naiichnz Uwu*_
 ------- [ *Nomer Owner* ] -------
 
  》•https://wa.me/6281322667077 (Romli)
