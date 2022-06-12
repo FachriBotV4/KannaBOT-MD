@@ -68,7 +68,7 @@ global.nameown = 'Zxyuu Romm'
 /*============== STAFF ==============*/
 global.owner = [
   ['6281322667077'],
-  ['6281322667077'],
+  ['6281215710461'],
   ['6281215710461'],
   ['6281215710461', 'ZxyuuRomm🗿', true]
   // [number, dia creator/owner?, dia developer?]
