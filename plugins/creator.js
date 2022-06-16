@@ -7,12 +7,10 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 //------- NOMOR
  let nowner = `${nomorown.split`@`[0]}@s.whatsapp.net`
   let teksnomor = `${htki} *OWNER* ${htka}
- 》• _*Romli Ngab*_
- 》• _*Naiichnz Uwu*_
+ 》✦ _*Fachri Cuy*_
 ------- [ *Nomer Owner* ] -------
 
- 》•https://wa.me/6281322667077 (Romli)
- 》•https://wa.me/6281215710461 (Naiichnz)
+ 》✦ https://wa.me/6285713041886 (Fachri)
 
 📮 *Note:*
 • Owner tidak menerima save contact
@@ -24,13 +22,13 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 //------------ BIO
 let ppown = await conn.profilePictureUrl(nomorown + '@s.whatsapp.net', 'image').catch(_ => hwaifu[1]) 
 let teksbio = `${htki} *BIODATA* ${htka}
-*ɴᴀᴍᴇ:* Romli Ngab!!
-*ᴀɢᴇ:* 16th
-*ᴄʟᴀss:* 10
-*sᴛᴀᴛᴜs:* *yaa*
+*ɴᴀᴍᴇ:* Fachri
+*ᴀɢᴇ:* 14th
+*ᴄʟᴀss:* 2 smp
+*sᴛᴀᴛᴜs:* 
 
-*ʙɪʀᴛʜᴅᴀʏ:* 4j2k6
-*ᴀᴅᴅʀᴇss:* Indonesia, jawa barat, Bandung Barat
+*ʙɪʀᴛʜᴅᴀʏ:* 17Ok208
+*ᴀᴅᴅʀᴇss:* Indonesia, jawa tengah, pemalang
 
 *- - sᴋɪʟʟs: - -* 
 > JavaScript [89.7%]
@@ -40,8 +38,7 @@ let teksbio = `${htki} *BIODATA* ${htka}
 
 📷 *Instagram:* ${sig}
 🐈 *Github:* ${sgh}
-🥏 *Whatsapp* wa.me/6281322667077 (Romli)
-🥏 *Whatsapp* wa.me/6281215710461 (Naiichnz)
+🥏 *Whatsapp* wa.me/6285713041886 (Fachri)
 
 `
   let teks = ' '
