@@ -285,6 +285,7 @@ const listMessage = {
   title: `${htki} *LIST MENU* ${htka}`,
   buttonText: `CLICK HERE ⎙`,
 }
+  if (teks == '404') {
 ], "contextInfo": {
               "stanzaId": m.key.id,
               "participant": m.sender,
