@@ -286,8 +286,17 @@ const listMessage = {
   buttonText: `CLICK HERE ⎙`,
   sections
 }
-  if (teks == '404') {
-  	return conn.sendMessage(m.chat, listMessage, { quoted: m, mentions: await conn.parseMention(tek), contextInfo:{ forwardingScore: 99999, isForwarded: true }})
+], "contextInfo": {
+              "stanzaId": m.key.id,
+              "participant": m.sender,
+              "quotedMessage": m.message
+            }
+    }}), { userJid: m.participant || m.key.remoteJid, quoted: fkontak });
+    return await conn.relayMessage(
+        m.key.remoteJid,
+        template.message,
+        { messageId: template.key.id }
+    )
     }
   	
  /**************************** TIME *********************/
