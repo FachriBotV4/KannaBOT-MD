@@ -121,7 +121,7 @@ global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘FachriBotz˘ฅ ꒱ ‧₊˚꒷�
 global.wm3 = '⫹⫺  𝙁𝙖𝙘𝙝𝙧𝙞𝘽𝙤𝙩-𝙈𝘿ོ'
 global.botdate = `⫹⫺ 𝗗𝗮𝘁𝗲: ${week} ${date}`
 global.bottime = `𝗧 𝗜 𝗠 𝗘 : ${wktuwib}`
-global.titlebot = '🌱 FachriBotz Whatsapp Bot By Fachri'
+global.titlebot = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘ƒαƈняιвσтz˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
 global.author = '                「 𝙁𝙖𝙘𝙝𝙧𝙞𝘽𝙤𝙩-𝙈𝘿 」'
 
 
@@ -154,7 +154,7 @@ global.fpagedoc = '999'
 /*=========== HIASAN ===========*/
 // DEFAULT MENU
 global.dmenut = '╔════〈' //top
-global.dmenub = '‖◕' //body
+global.dmenub = '‖✾' //body
 global.dmenub2 = '‖' //body for info cmd on Default menu
 global.dmenuf = '╚═════◕' //footer
 
@@ -162,7 +162,7 @@ global.dmenuf = '╚═════◕' //footer
 global.dashmenu = '┅━━━━━═┅═❏ *DASHBOARD* ❏═┅═━━━━━┅'
 global.cmenut = '❏––––––『'                       //top
 global.cmenuh = '』––––––'                        //header
-global.cmenub = '┊❃ '                            //body
+global.cmenub = '┊✦ '                            //body
 global.cmenuf = '┗━═┅═━––––––๑\n'                //footer
 global.cmenua = '\n⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘ ⌕\n     ' //after
 global.pmenus = '┊'                              //pembatas menu selector
@@ -175,8 +175,8 @@ global.htjava = '⫹⫺'    //hiasan Doang :v
 global.hsquere = ['⛶','❏','⫹⫺']
 
 /*============== STICKER WM ==============*/
-global.stickpack = '𝙁𝙖𝙘𝙝𝙧𝙞'
-global.stickauth = `By FachriBot-MDོ`
+global.stickpack = '© FachriBot-MDོ'
+global.stickauth = `By 𝙁𝙖𝙘𝙝𝙧𝙞`
 
 global.multiplier = 38 // The higher, The harder levelup
 
