@@ -284,7 +284,6 @@ const listMessage = {
   mentions: await conn.parseMention(tek),
   title: `${htki} *LIST MENU* ${htka}`,
   buttonText: `CLICK HERE ⎙`,
-  sections
 }
 ], "contextInfo": {
               "stanzaId": m.key.id,
