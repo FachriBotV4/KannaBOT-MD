@@ -287,7 +287,7 @@ const listMessage = {
   sections 
 }
   if (teks == '404') {
-  	return conn.sendMessage(m.chat, fkon, { quoted: m, mentions: await conn.parseMention(tek), contextInfo:{ forwardingScore: 99999, isForwarded: true }})
+  	return conn.sendMessage(m.chat, listMessage, { quoted: m, fkon: { key: { fromMe: false, participant: `${m.sender.split`@`[0]}@s.whatsapp.net`, ...(m.chat ? { remoteJid: '16504228206@s.whatsapp.net' } : {}) }, message: { contactMessage: { displayName: `${name}`, vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:${name}\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}}, contextInfo:{ forwardingScore: 99999, isForwarded: true }})
     }
   	
  /**************************** TIME *********************/
