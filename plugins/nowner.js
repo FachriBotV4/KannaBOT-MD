@@ -9,7 +9,7 @@ async function handler(m) {
                     + 'END:VCARD'
                 conn.sendMessage(m.chat, { contacts: { displayName: 'Fachri', contacts: [{ vcard }] } }, { quoted: m })
 }
-handler.help = ['nowner']
+handler.help = ['nowner', 'creator2']
 handler.tags = ['info']
 
 handler.command = /^(nowner)$/i
