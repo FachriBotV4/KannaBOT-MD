@@ -763,7 +763,7 @@ global.dfail = (type, m, conn) => {
         group: '_*Fitur khusus Gc ya*_',
         private: '_*Fitur Khusus private*_',
         admin: '_*Fitur khusus Admin ya*_',
-        botAdmin: '_*Bot nya harus admin dulu lah cug*_',
+        botAdmin: '_*Bot nya harus admin dulu ya*_',
         restrict: '*ʀᴇsᴛʀɪᴄᴛ* • ʀᴇsᴛʀɪᴄᴛ ʙᴇʟᴜᴍ ᴅɪɴʏᴀʟᴀᴋᴀɴ ᴅɪᴄʜᴀᴛ ɪɴɪ',
     }[type]
     if (msg) return conn.reply(m.chat, msg, false, { quoted: m, contextInfo: { externalAdReply: { showAdAttribution: true,
