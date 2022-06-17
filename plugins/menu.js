@@ -12,7 +12,7 @@ import fetch from 'node-fetch'
 const defaultMenu = {
   before: `
 %dash
-%m1 *U S E R*
+%m1 𝙐𝙎𝙀𝙍 𝙄𝙉𝙁𝙊
 %m2 *Name:* %name
 %m2 *Tag:* %tag
 %m2 *Status:* %prems
@@ -24,7 +24,7 @@ const defaultMenu = {
 %m2 *Total Xp:* %totalexp
 %m3
 
-%m1 *T O D A Y*
+%m1 𝙏𝙊𝘿𝘼𝙔
 %m2 *%ucpn*
 %m2 *Days:* %week %weton
 %m2 *Date:* %date
@@ -32,7 +32,7 @@ const defaultMenu = {
 %m2 *Time:* %wib
 %m3
 
-%m1 *I N F O*
+%m1 𝘽𝙊𝙏 𝙄𝙉𝙁𝙊
 %m2 *Bot Name:* %me
 %m2 *Mode:* %mode
 %m2 *Platform:* %platform
@@ -43,7 +43,7 @@ const defaultMenu = {
 %m2 *Database:* %rtotalreg dari %totalreg
 %m3
 
-%m1 *I N F O  C M D* 
+%m1 𝘾𝙈𝘿 𝙄𝙉𝙁𝙊 
 %m4 *Ⓟ* = Premium
 %m4 *Ⓛ* = Limit
 %m3
@@ -262,13 +262,13 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
 
 let usrs = db.data.users[m.sender]
 let tek = `*${ucapan()} ${conn.getName(m.sender)}*
-*U S E R  I N F O*
+𝙐𝙎𝙀𝙍 𝙄𝙉𝙁𝙊
 • *ɴᴀᴍᴇ:* ${usrs.registered ? usrs.name : conn.getName(m.sender)}
 • *ᴛᴀɢs:* @${m.sender.split`@`[0]}
 • *sᴛᴀᴛᴜs:* ${m.sender.split`@`[0] == nomorown ? 'Developer' : (usrs.premiumTime >= 1 ? 'Premium User' : 'Free User')}
 • *ᴘʀᴇᴍɪᴜᴍ:* ${usrs.premiumTime > 1 ? 'Yes': 'No'}
 
-*S T A T U S  I N F O*
+𝘽𝙊𝙏 𝙄𝙉𝙁𝙊
 • *ᴜᴘᴛɪᴍᴇ:* ${mpt}
 • *ᴛɪᴍᴇ:* ${moment.tz('Asia/Jakarta').format('HH')} H  ${moment.tz('Asia/Jakarta').format('mm')} M  ${moment.tz('Asia/Jakarta').format('ss')} S
 • *ᴜsᴇʀs:* ${Object.keys(global.db.data.users).length}
@@ -280,7 +280,7 @@ ${clockStringP(usrs.premiumTime - new Date())}` : ''}
 `
 const listMessage = {
   text: tek,
-  footer: '📮 *Note:* Jika menemukan bug, error atau kesulitan dalam penggunaan silahkan laporkan/tanyakan kepada Owner',
+  footer: 'wm',
   mentions: await conn.parseMention(tek),
   title: `${htki} *LIST MENU* ${htka}`,
   buttonText: `CLICK HERE ⎙`,
@@ -488,7 +488,7 @@ const listMessage = {
             fileLength: fsizedoc,
             pageCount: fpagedoc,
             caption: text,
-            footer: titlebot + '\n⚡ Supported By FR Team',
+            footer: titlebot + '\n⚡ Supported By Fachri',
             templateButtons: [
                 {
                     urlButton: {
