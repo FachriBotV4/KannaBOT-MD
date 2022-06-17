@@ -280,7 +280,7 @@ ${clockStringP(usrs.premiumTime - new Date())}` : ''}
 `
 const listMessage = {
   text: tek,
-  footer: 'wm',
+  footer: '                  「 𝙁𝙖𝙘𝙝𝙧𝙞𝘽𝙤𝙩-𝙈𝘿 あ⁩ 」',
   mentions: await conn.parseMention(tek),
   title: `${htki} *LIST MENU* ${htka}`,
   buttonText: `CLICK HERE ⎙`,
