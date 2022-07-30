@@ -287,7 +287,7 @@ const listMessage = {
   sections 
 }
   if (teks == '404') {
-  	return conn.sendMessage(m.chat, listMessage, { quoted: m, mentions: await conn.parseMention(tek), contextInfo:{ forwardingScore: 99999, isForwarded: true }})
+  	return conn.sendMessage(m.chat, listMessage, { quoted: ftoko, mentions: await conn.parseMention(tek), contextInfo:{ forwardingScore: 99999, isForwarded: true }})
     }
   	
  /**************************** TIME *********************/
@@ -420,7 +420,7 @@ const listMessage = {
   "product": {
   "productImage":{
   "mimetype": "image/jpeg",
-  "jpegThumbnail": fs.readFileSync('./thumbnail.jpg'),
+  "jpegThumbnail": fs.readFileSync('./94295494.jpeg'),
     },
   "title": `${ucapan()}`,
   "description": '𝗧 𝗜 𝗠 𝗘 : ' + wktuwib,
