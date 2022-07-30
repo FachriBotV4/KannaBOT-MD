@@ -18,7 +18,7 @@ key: {
 						"mimetype": "image/jpeg",
 						"jpegThumbnail": fs.readFileSync('./94295494.jpeg'), //Gambarnye
 					},
-					"title": `Hai Kak~`, //Kasih namalu 
+					"title": `Hai ${conn.getName(m.sender)}~`, //Kasih namalu 
 					"description": `Rp 9.999.999.999`, 
 					"currencyCode": "Rp",
 					"priceAmount1000": "500000",
