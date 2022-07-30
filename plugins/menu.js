@@ -261,33 +261,19 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
 ]
 
 let usrs = db.data.users[m.sender]
-let tek = `*${ucapan()} ${conn.getName(m.sender)}*
-𝙐𝙎𝙀𝙍 𝙄𝙉𝙁𝙊
-• *ɴᴀᴍᴇ:* ${usrs.registered ? usrs.name : conn.getName(m.sender)}
-• *ᴛᴀɢs:* @${m.sender.split`@`[0]}
-• *sᴛᴀᴛᴜs:* ${m.sender.split`@`[0] == nomorown ? 'Developer' : (usrs.premiumTime >= 1 ? 'Premium User' : 'Free User')}
-• *ᴘʀᴇᴍɪᴜᴍ:* ${usrs.premiumTime > 1 ? 'Yes': 'No'}
-
-𝘽𝙊𝙏 𝙄𝙉𝙁𝙊
-• *ᴜᴘᴛɪᴍᴇ:* ${mpt}
-• *ᴛɪᴍᴇ:* ${moment.tz('Asia/Jakarta').format('HH')} H  ${moment.tz('Asia/Jakarta').format('mm')} M  ${moment.tz('Asia/Jakarta').format('ss')} S
-• *ᴜsᴇʀs:* ${Object.keys(global.db.data.users).length}
-• *ʟɪᴍɪᴛ:* ${usrs.limit}
-• *ʟᴇᴠᴇʟ:* ${usrs.level}
-• *ʀᴏʟᴇ:* ${usrs.role}${usrs.premiumTime > 1 ? `
-• *ᴇxᴘɪʀᴇᴅ ᴘʀᴇᴍɪᴜᴍ:*
-${clockStringP(usrs.premiumTime - new Date())}` : ''}
+let tek = `${ucapan()} ${conn.getName(m.sender)}
+*©FACHRIBOT-MD*
 `
 const listMessage = {
   text: tek,
-  footer: '                  「 𝙁𝙖𝙘𝙝𝙧𝙞𝘽𝙤𝙩-𝙈𝘿 あ⁩ 」',
+  footer: 'Jika menemukan bug,error atau kesulitan dalam penggunaan silahkan laporkan/tanyakan kepada owner.',
   mentions: await conn.parseMention(tek),
   title: `${htki} *LIST MENU* ${htka}`,
   buttonText: `CLICK HERE ⎙`,
   sections 
 }
   if (teks == '404') {
-  	return conn.sendMessage(m.chat, listMessage, { quoted: ftoko, mentions: await conn.parseMention(tek), contextInfo:{ forwardingScore: 99999, isForwarded: true }})
+  	return conn.sendMessage(m.chat, listMessage, { quoted: fkon, mentions: await conn.parseMention(tek), contextInfo:{ forwardingScore: 99999, isForwarded: true }})
     }
   	
  /**************************** TIME *********************/
@@ -536,7 +522,7 @@ handler.help = ['menu', 'help', '?']
 handler.tags = ['main']
 handler.command = /^(menu|help|\?)$/i
 
-handler.register = true
+handler.register = false
 handler.exp = 3
 
 export default handler
