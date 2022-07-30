@@ -2,8 +2,33 @@ import { sticker } from '../lib/sticker.js'
 import uploadFile from '../lib/uploadFile.js'
 import uploadImage from '../lib/uploadImage.js'
 import { webp2png } from '../lib/webp2mp4.js'
+import fs from 'fs'
+import fetch from 'node-fetch'
 
 let handler = async (m, { conn, args, usedPrefix, command }) => {
+const ftoko = {
+key: {
+			fromMe: false,
+			participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "status@broadcast" } : {})
+		},
+		message: {
+			"productMessage": {
+				"product": {
+					"productImage":{
+						"mimetype": "image/jpeg",
+						"jpegThumbnail": fs.readFileSync('./94295494.jpeg'), //Gambarnye
+					},
+					"title": `Hai Kak~`, //Kasih namalu 
+					"description": `Rp 9.999.999.999`, 
+					"currencyCode": "Rp",
+					"priceAmount1000": "500000",
+					"retailerId": `ppk`,
+					"productImageCount": 1
+				},
+				    "businessOwnerJid": `628162633549@s.whatsapp.net`
+		}
+	}
+}
 
   let stiker = false
   try {
@@ -33,7 +58,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
     console.error(e)
     if (!stiker) stiker = e
   } finally {
-    if (stiker) conn.sendFile(m.chat, stiker, 'sticker.webp', '', m)
+    if (stiker) conn.sendFile(m.chat, stiker, 'sticker.webp', '', ftoko)
     else throw 'Conversion failed'
   }
 }
