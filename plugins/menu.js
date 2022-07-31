@@ -240,7 +240,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
 	{title: `🐚 ${pmenus} Kerang`, rowId: ".? kerangajaib", description: "Tanyakan pada ketua club"},
 	{title: `📑 ${pmenus} Quotes`, rowId: ".? quotes", description: "Random Inspirasi"},
 	{title: `⛩️ ${pmenus} Anime`, rowId: ".? anime", description: "Kamu wibu ya bang?"},
-	{title: `🔞 ${pmenus} Nsfw`, rowId: ".? nsfw", description: "Tch, dasar sagne"},
+	{title: `🔞 ${pmenus} Nsfw`, rowId: ".? nsfw", description: "Tch, dasar sagne..."},
 	{title: `🌟 ${pmenus} Premium`, rowId: ".? premium", description: "Only premium Users"},
 	{title: `🎭 ${pmenus} Anonymous Chats`, rowId: ".? anonymous", description: "Bicara dengan orang tidak dikenal"},
 	{title: `📖 ${pmenus} Al-Quran`, rowId: ".? quran", description: "Tobat yuk kak"},
@@ -262,7 +262,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
 
 let usrs = db.data.users[m.sender]
 let tek = `${ucapan()} ${conn.getName(m.sender)}
-*©FACHRIBOT-MD*
+*© FACHRIBOT-MD*
 `
 const listMessage = {
   text: tek,
