@@ -393,6 +393,7 @@ const listMessage = {
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
+      await conn.reply(m.chat, '*Memuat Menu...*', ftoko)
     
     //----------------- FAKE
     let ftoko = {
