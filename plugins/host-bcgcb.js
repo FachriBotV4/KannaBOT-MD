@@ -2,6 +2,13 @@ import fs from 'fs'
 import fetch from 'node-fetch'
 let handler = async (m, { conn, text } ) => {
  let groups = Object.entries(conn.chats).filter(([jid, chat]) => jid.endsWith('@g.us') && chat.isChats && !chat.metadata?.read_only && !chat.metadata?.announce).map(v => v[0])
+      const fliveLoc = {
+	 key:
+	 { fromMe: false,
+	 participant: `0@s.whatsapp.net`, ...(m.chat  ? 
+	 { remoteJid: "status@broadcast" } : {}) },
+	 message: { "liveLocationMessage": { "caption":"© FachriBot By Fachri","h": `${wm}`, 'jpegThumbnail': fs.readFileSync('./src/logo.jpg')}}
+	}
 
 conn.reply(m.chat, `_Mengirim pesan broadcast ke ${groups.length} grup_`, m)
  for (let id of groups) {
