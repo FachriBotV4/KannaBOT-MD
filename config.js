@@ -154,15 +154,15 @@ global.fpagedoc = '999'
 /*=========== HIASAN ===========*/
 // DEFAULT MENU
 global.dmenut = '╔════〈' //top
-global.dmenub = '‖✾' //body
-global.dmenub2 = '‖' //body for info cmd on Default menu
+global.dmenub = '║✾' //body
+global.dmenub2 = '║' //body for info cmd on Default menu
 global.dmenuf = '╚═════◕' //footer
 
 // COMMAND MENU
-global.dashmenu = '┅━━━━━═┅═❏ *DASHBOARD* ❏═┅═━━━━━┅'
+global.dashmenu = '┅━━━━═┅═❏ *DASHBOARD* ❏═┅═━━━━┅'
 global.cmenut = '❏––––––『'                       //top
 global.cmenuh = '』––––––'                        //header
-global.cmenub = '┊✦ '                            //body
+global.cmenub = '┊⌬ › '                            //body
 global.cmenuf = '┗━═┅═━––––––๑\n'                //footer
 global.cmenua = '\n⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘ ⌕\n     ' //after
 global.pmenus = '┊'                              //pembatas menu selector
