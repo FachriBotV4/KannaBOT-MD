@@ -7,13 +7,13 @@ let handler = async (m, { conn, text } ) => {
 	 { fromMe: false,
 	 participant: `0@s.whatsapp.net`, ...(m.chat  ? 
 	 { remoteJid: "status@broadcast" } : {}) },
-	 message: { "liveLocationMessage": { "caption":"© FachriBot By Fachri","h": `${wm}`, 'jpegThumbnail': fs.readFileSync('./src/logo.jpg')}}
+	 message: { "liveLocationMessage": { "caption":"© FachriBot By Fachri","h": `${wm}`, 'jpegThumbnail': fs.readFileSync('./94295494.jpeg')}}
 	}
 
 conn.reply(m.chat, `_Mengirim pesan broadcast ke ${groups.length} grup_`, m)
  for (let id of groups) {
  let member = (await conn.groupMetadata(id)).participants.map(v => v.jid)
-conn.sendButton(id, '────━┅ *BROADCAST* ┅━────\n' + text, wm, thumbbc, [['OWNER 🎐', '.owner'],['DONASI ✨', '.donasi']], false, { contextInfo: {
+conn.sendButton(id, '────━┅ *BROADCAST* ┅━────\n' + text, wm, thumbbc, [['OWNER 🎐', '.owner'],['DONASI ✨', '.donasi']], fliveLoc, { contextInfo: {
         externalAdReply: {
             title: `${htjava} BROADCAST`,
             body: titlebot,
