@@ -398,7 +398,7 @@ const listMessage = {
     let ftoko = {
     key: {
     fromMe: false,
-    participant: `${m.sender.split`@`[0]}` + '@s.whatsapp.net',
+    participant: '0@s.whatsapp.net',
     remoteJid: 'status@broadcast',
   },
   message: {
